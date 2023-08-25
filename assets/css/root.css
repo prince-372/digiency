@@ -1,0 +1,356 @@
+:root {
+    /* font-size */
+    --fs-10: 10.24px;
+    --fs-12: 12.8px;
+    --fs-16: 16px;
+    --fs-20: 20px;
+    --fs-25: 25px;
+    --fs-39: 39.06px;
+    --fs-40: 39.063px;
+    --fs-48: 48.85px;
+    --fs-64: 64px;
+
+    /* font-waight */
+    --fw-300: 300;
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+
+    /* font-color */
+    --text-orange: #ff5300;
+    --text-black: #373737;
+    --text-lightblack: #7B7B7B;
+    --text-white: #fff;
+    --text-gray: #EFEFEF;
+
+    /* background-color */
+    --bg-lightorange: #FFF7F4;
+    --bg-orange: #ff5300;
+    --bg-white: #fff;
+    --bg-black: linear-gradient(0deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.95) 100%), url(<path-to-image>), lightgray 50% / cove
+}
+
+/* header */
+.bg-lightorange {
+    background-color: var(--bg-lightorange);
+}
+
+.f-digi {
+    font-size: var(--fs-39);
+    font-weight: var(--fw-600);
+    color: var(--text-orange);
+}
+
+.f-ency {
+    font-size: var(--fs-39);
+    font-weight: var(--fw-600);
+    color: var(--text-black);
+}
+
+.f-nav-home {
+    font-size: var(--fs-20);
+    font-weight: var(--fw-500);
+    color: var(--text-black);
+}
+
+.f-nav-home:hover {
+    font-size: var(--fs-20);
+    font-weight: var(--fw-500);
+    color: var(--text-orange);
+}
+
+.f-choose {
+    font-size: var(--fs-48);
+    font-weight: var(--fw-700);
+    color: var(--text-black);
+}
+
+.f-lorem {
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--text-lightblack);
+}
+
+.btn-get {
+    font-size: var(--fs-20);
+    font-weight: var(--fw-500);
+    color: var(--text-white);
+    background-color: var(--bg-orange);
+}
+
+/* 1st section */
+.f-font {
+    font-size: var(--fs-40);
+    font-weight: var(--fw-600);
+    color: var(--text-black);
+}
+
+.f-services {
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--text-orange);
+}
+
+.f-number {
+    font-size: var(--fs-64);
+    font-weight: var(--fw-600);
+    color: var(--text-gray);
+}
+
+.f-design {
+    font-size: var(--fs-25);
+    font-weight: var(--fw-600);
+    color: var(--text-black);
+}
+
+.f-mobile {
+    font-size: var(--fs-12);
+    font-weight: var(--fw-300);
+    color: var(--text-lightblack);
+}
+
+.f-lorem1 {
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--text-lightblack);
+}
+
+/* 2nd section */
+.f-about {
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--bg-orange);
+}
+
+.f-grow {
+    font-size: var(--fs-40);
+    font-weight: var(--fw-600);
+    color: var(--text-black);
+}
+
+.f-lorem2 {
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--text-lightblack);
+}
+
+.f-website {
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--text-black);
+}
+
+/* 3rd section */
+.f-study {
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--text-orange);
+}
+
+.f-li {
+    font-size: var(--fs-20);
+    font-weight: var(--fw-500);
+    color: var(--text-lightblack);
+}
+
+.f-li:hover {
+    background-color: var(--bg-orange);
+    color: var(--text-white);
+}
+
+.f-web {
+    font-size: var(--fs-25);
+    font-weight: var(--fw-600);
+    color: var(--text-white);
+}
+
+/* 4th section */
+.f-testimonial {
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--text-orange);
+}
+
+.f-client {
+    font-size: var(--fs-40);
+    font-weight: var(--fw-600);
+    color: var(--text-black);
+}
+
+.f-lorem3 {
+    font-style: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--text-lightblack);
+}
+
+.f-phillip {
+    font-size: var(--fs-20);
+    font-weight: var(--fw-500);
+    color: var(--text-orange);
+}
+
+.f-creative {
+    font-size: var(--fs-12);
+    font-weight: var(--fw-300);
+    color: var(--text-lightblack);
+}
+
+/* 5th section */
+.f-capabilities {
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--text-orange);
+}
+
+.f-forward {
+    font-size: var(--fs-40);
+    font-weight: var(--fw-600);
+    color: var(--text-black);
+}
+
+.f-lorem4 {
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--text-lightblack);
+}
+
+.f-numbers {
+    font-size: var(--fs-25);
+    font-weight: var(--fw-600);
+    color: var(--text-orange);
+}
+
+.f-softwer {
+    font-size: var(--fs-12);
+    font-weight: var(--fw-300);
+    color: var(--text-black);
+}
+.f-number1{
+    font-size: var(--fs-40);
+    font-weight: var(--fw-600);
+    color: var(--text-white);
+}
+.f-total{
+    font-size: var(--fs-20);
+    font-weight: var(--fw-500);
+    color: var(--text-white);
+}
+
+/* 6th section */
+.f-blog {
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--text-orange);
+}
+
+.f-every {
+    font-size: var(--fs-40);
+    font-weight: var(--fw-600);
+    color: var(--text-black);
+}
+
+.f-stellar {
+    font-size: var(--fs-20);
+    font-weight: var(--fw-500);
+    color: var(--text-black);
+}
+
+.f-january {
+    font-size: var(--fs-10);
+    font-weight: var(--fw-400);
+    color: var(--text-black);
+}
+
+.f-lorem5 {
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--text-lightblack);
+}
+
+.btn-read {
+    font-size: var(--fs-20);
+    font-weight: var(--fw-500);
+    color: var(--text-white);
+    background-color: var(--bg-orange);
+}
+
+/* 7th section */
+.f-subscribe {
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--text-white);
+}
+
+.f-lets {
+    font-size: var(--fs-40);
+    font-weight: var(--fw-600);
+    color: var(--text-white);
+}
+
+.btn-subscribe {
+    font-size: var(--fs-16);
+    font-weight: var(--fw-500);
+    color: var(--text-white);
+    background-color: var(--bg-orange);
+}
+
+.f-svg {
+    background-color: var(--bg-white);
+}
+/* footer */
+.bg-black{
+    background-color: var(--bg-black);
+}
+.f-footer-ency{
+    font-size: var(--fs-39);
+    font-weight: var(--fw-600);
+    color: var(--text-white);
+}
+.f-footer-lorem{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--text-white);
+}
+.f-location{
+    font-size: var(--fs-25);
+    font-weight: var(--fw-600);
+    color: var(--text-orange);
+}
+.f-utica{
+    font-size: var(--fs-20);
+    font-weight: var(--fw-500);
+    color: var(--text-white);
+}
+.f-copyright{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--text-white);
+}
+.f-icon>svg path{
+ fill: var(--text-black);
+}
+.f-icon:hover >svg path{
+    fill: var(--text-orange);
+}
+.position-right>svg path{
+    fill: var(--text-black);
+}
+.position-right:hover>svg path{
+    fill: var(--text-orange);
+}
+.position-left:hover>svg path{
+    fill: var(--text-orange);
+}
+.arrow-border:hover> svg path{
+    fill: var(--text-orange);
+}
+@media (min-width:768px) {
+    .btn-subscribe {
+        font-size: var(--fs-20);
+        font-weight: var(--fw-500);
+        color: var(--text-white);
+        background-color: var(--bg-orange);
+    }
+    
+}
